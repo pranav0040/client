@@ -94,7 +94,7 @@ const Login = () => {
             <p className="text-sm text-blue-600 my-4 cursor-pointer" 
             >Forgot Password?</p>
 
-            <button className="bg-blue-600 w-full text-white py-2 rounded-full">{state === 'Login '?'login':'Create Account'}</button>
+            <button className="bg-blue-600 w-full text-white py-2 rounded-full">{state === 'Login'?'login':'Create Account'}</button>
 
            {state==='Login' ? <p className="mt-5 text-center">Don't have an account? <span className="text-blue-600 cursor-pointer" onClick={()=>{setState('Sign Up')}}>Sign Up</span></p>   
            :         
